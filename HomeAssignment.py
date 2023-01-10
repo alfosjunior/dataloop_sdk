@@ -6,7 +6,7 @@ import traceback
 
 
 def validate (general_list, item_to_check):
-    current_items = list(general_list[i] for i in range(len(general_list)))
+    current_items = list(general_list[i].name for i in range(len(general_list)))
     return item_to_check in current_items
 
 try: 
