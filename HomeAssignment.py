@@ -27,7 +27,7 @@ try:
     dataset = project.datasets.get(dataset_name=dataset_name) # select a dataset
 
     # 2. Add three labels: 
-    labels = ['class','class2','key']
+    labels = ['class','class2','key'] 
     dataset.add_labels(label_list=labels)
 
     # 3. upload all items of a directory:
